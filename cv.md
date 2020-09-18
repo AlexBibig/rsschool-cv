@@ -8,8 +8,7 @@
 
 ## Summary
 
-I am a tireless seeker of knowledge, a nice guy and also, coincidentally, a junior frontend developer.
-Once I tried to create a landing page I really fell in love with the process. Recently I finished TeachMeSkills-courses, love to write on React.
+I am a tireless seeker of knowledge, a nice guy and also, coincidentally, a junior frontend developer. For the last 7 years I have been worked in sales, but once I tried to create a landing page I really fell in love with the process. Recently I finished TeachMeSkills-courses, especially love to write on React. I am punctual, really responsible, easily find a common ground with people, quickly learn new information, love pizza:) In general I would fit into any great team.
 
 ## Skills
 
