@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+html {
+  font-family: 'Open Sans', sans-serif;
+}
+.wrapper {
+  max-width: 900px;
+  margin: 25px auto;
+  box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.6);
+}
+span {
+  font-weight: bold;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  background: #2b57b1;
+  border-bottom: 2px solid black;
+  .avatar img {
+    width: 45%;
+  }
+  .info {
+    text-align: right;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .name {
+      font-size: 50px;
+      font-weight: 700;
+    }
+    p {
+      margin-bottom: 30px;
+      font-size: 20px;
+    }
+  }
+}
+
+main {
+  display: flex;
+  background-color: #f4f4f4;
+  h2 {
+    margin-bottom: 20px;
+  }
+  a,
+  a:visited {
+    text-decoration: none;
+    color: #2b57b1;
+  }
+  aside {
+    padding: 25px;
+    width: 200px;
+    .skills {
+      border-right: 2px solid black;
+      h2 {
+        text-align: center;
+      }
+      ul {
+        margin-left: 30px;
+        li {
+          margin-bottom: 5px;
+        }
+      }
+      .hard_skills {
+        margin-bottom: 30px;
+      }
+    }
+  }
+  .main_info {
+    padding: 25px;
+    width: 700px;
+    ul {
+      list-style: none;
+    }
+    .contacts_and_links {
+      display: flex;
+      div {
+        width: 50%;
+        li {
+          margin-bottom: 5px;
+          .code_examples {
+            font-weight: normal;
+            color: black;
+          }
+        }
+      }
+    }
+    .summary {
+      p {
+        margin-bottom: 10px;
+        line-height: 22px;
+      }
+    }
+    .education,
+    .experience {
+      li:not(:last-child) {
+        margin-bottom: 20px;
+      }
+      p:not(:last-child) {
+        margin-bottom: 10px;
+      }
+    }
+  }
+  .main_info > div:first-child {
+    padding-bottom: 30px;
+  }
+  .main_info > div:not(:first-child) {
+    padding: 30px 0px;
+    border-top: 2px solid black;
+  }
+}
+
+/* trash */
+/*
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+  color: #1a212f;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0px;
+  border: 0px;
+} */
