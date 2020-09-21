@@ -18,11 +18,12 @@ span {
   display: flex;
   justify-content: space-between;
   padding: 30px;
-  background: #2b57b1;
+  background-color: #2b57b1;
   border-bottom: 2px solid black;
 }
 .header .avatar img {
   width: 45%;
+  height: auto;
 }
 .header .info {
   text-align: right;
@@ -50,10 +51,11 @@ main a,
 main a:visited {
   text-decoration: none;
   color: #2b57b1;
+  border-bottom: 2px solid #2b57b1;
 }
 main aside {
   padding: 25px;
-  width: 200px;
+  width: 23%;
 }
 main aside .skills {
   border-right: 2px solid black;
@@ -67,12 +69,13 @@ main aside .skills ul {
 main aside .skills ul li {
   margin-bottom: 5px;
 }
-main aside .skills .hard_skills {
+main aside .skills .hard_skills,
+main aside .skills .soft_skills {
   margin-bottom: 30px;
 }
 main .main_info {
   padding: 25px;
-  width: 700px;
+  width: 77%;
 }
 main .main_info ul {
   list-style: none;
@@ -109,62 +112,3 @@ main .main_info > div:not(:first-child) {
   padding: 30px 0px;
   border-top: 2px solid black;
 }
-/* trash */
-/*
-*,
-*:before,
-*:after {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-:focus,
-:active {
-  outline: none;
-}
-
-a:focus,
-a:active {
-  outline: none;
-}
-
-nav,
-footer,
-header,
-aside {
-  display: block;
-}
-
-html,
-body {
-  height: 100%;
-  width: 100%;
-  font-size: 100%;
-  line-height: 1;
-  -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  font-family: 'Rubik', sans-serif;
-  font-size: 16px;
-  color: #1a212f;
-}
-
-input,
-button,
-textarea {
-  font-family: inherit;
-}
-
-input::-ms-clear {
-  display: none;
-}
-
-button {
-  cursor: pointer;
-}
-
-button::-moz-focus-inner {
-  padding: 0px;
-  border: 0px;
-} */
