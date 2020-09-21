@@ -19,10 +19,11 @@ span {
   display: flex;
   justify-content: space-between;
   padding: 30px;
-  background: #2b57b1;
+  background-color: #2b57b1;
   border-bottom: 2px solid black;
   .avatar img {
     width: 45%;
+    height: auto;
   }
   .info {
     text-align: right;
@@ -51,10 +52,11 @@ main {
   a:visited {
     text-decoration: none;
     color: #2b57b1;
+    border-bottom: 2px solid #2b57b1;
   }
   aside {
     padding: 25px;
-    width: 200px;
+    width: 23%;
     .skills {
       border-right: 2px solid black;
       h2 {
@@ -66,14 +68,15 @@ main {
           margin-bottom: 5px;
         }
       }
-      .hard_skills {
+      .hard_skills,
+      .soft_skills {
         margin-bottom: 30px;
       }
     }
   }
   .main_info {
     padding: 25px;
-    width: 700px;
+    width: 77%;
     ul {
       list-style: none;
     }
@@ -114,63 +117,3 @@ main {
     border-top: 2px solid black;
   }
 }
-
-/* trash */
-/*
-*,
-*:before,
-*:after {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-:focus,
-:active {
-  outline: none;
-}
-
-a:focus,
-a:active {
-  outline: none;
-}
-
-nav,
-footer,
-header,
-aside {
-  display: block;
-}
-
-html,
-body {
-  height: 100%;
-  width: 100%;
-  font-size: 100%;
-  line-height: 1;
-  -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  font-family: 'Rubik', sans-serif;
-  font-size: 16px;
-  color: #1a212f;
-}
-
-input,
-button,
-textarea {
-  font-family: inherit;
-}
-
-input::-ms-clear {
-  display: none;
-}
-
-button {
-  cursor: pointer;
-}
-
-button::-moz-focus-inner {
-  padding: 0px;
-  border: 0px;
-} */
