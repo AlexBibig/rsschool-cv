@@ -11,8 +11,8 @@
 }
 @media (max-width: 751px) {
   .header .avatar img {
-    height: auto;
-    width: 75%;
+    height: 100%;
+    width: 100%;
   }
   main aside .skills {
     border-right: none;
@@ -31,10 +31,6 @@
 @media (max-width: 551px) {
   .header {
     display: block;
-  }
-  .header .avatar {
-    display: flex;
-    justify-content: center;
   }
   .header .info {
     text-align: center;
