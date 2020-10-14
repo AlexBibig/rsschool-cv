@@ -82,14 +82,13 @@ main {
     }
     .contacts_and_links {
       display: flex;
+      .contacts li a {
+        border: none;
+      }
       div {
         width: 50%;
         li {
           margin-bottom: 5px;
-          .code_examples {
-            font-weight: normal;
-            color: black;
-          }
         }
       }
     }
@@ -99,6 +98,16 @@ main {
         line-height: 22px;
       }
     }
+
+    .portfolio {
+      ul {
+        list-style: circle;
+        li {
+          margin-bottom: 10px;
+        }
+      }
+    }
+
     .education,
     .experience {
       li:not(:last-child) {

@@ -83,19 +83,24 @@ main .main_info ul {
 main .main_info .contacts_and_links {
   display: flex;
 }
+main .main_info .contacts_and_links .contacts li a {
+  border: none;
+}
 main .main_info .contacts_and_links div {
   width: 50%;
 }
 main .main_info .contacts_and_links div li {
   margin-bottom: 5px;
 }
-main .main_info .contacts_and_links div li .code_examples {
-  font-weight: normal;
-  color: black;
-}
 main .main_info .summary p {
   margin-bottom: 10px;
   line-height: 22px;
+}
+main .main_info .portfolio ul {
+  list-style: circle;
+}
+main .main_info .portfolio ul li {
+  margin-bottom: 10px;
 }
 main .main_info .education li:not(:last-child),
 main .main_info .experience li:not(:last-child) {
